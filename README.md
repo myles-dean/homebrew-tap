@@ -3,7 +3,9 @@
 Homebrew casks for my apps.
 
 ```sh
-brew install --cask myles-dean/tap/joymouse
+brew tap myles-dean/tap
+brew trust myles-dean/tap
+brew install --cask joymouse
 ```
 
 | Cask | App |
