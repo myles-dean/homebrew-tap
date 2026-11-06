@@ -1,8 +1,8 @@
 cask "joymouse" do
   version "1.0.0"
-  sha256 "40671f2119ea4cdf714e16f4dcd203beaff9a71786d5ef58088aa68bf2d9ca39"
+  sha256 "d02195c503728fef38e28b5f7af5a7896bda590ff74777eac5e0484479bd7af5"
 
-  url "https://github.com/myles-dean/joymouse/releases/download/v#{version}/JoyMouse-#{version}.zip"
+  url "https://github.com/myles-dean/joymouse/releases/download/v#{version}/JoyMouse-#{version}.dmg"
   name "JoyMouse"
   desc "Use a Nintendo Switch 2 Joy-Con as a mouse"
   homepage "https://github.com/myles-dean/joymouse"
