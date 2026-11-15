@@ -1,6 +1,6 @@
 cask "soundcheck" do
-  version "1.0"
-  sha256 "0e060cd1c0c0c3916a1cfc9a16035dd74fbc4f3dc056094aafd03d57203d7d24"
+  version "1.0.1"
+  sha256 "6ac05b81d6d361da59c2fdbe42ea65c5e6fd58834ade3fae63012ee2ed5798bf"
 
   url "https://github.com/myles-dean/Soundcheck/releases/download/v#{version}/Soundcheck.dmg"
   name "Soundcheck"
