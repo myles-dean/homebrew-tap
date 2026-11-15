@@ -1,6 +1,6 @@
 cask "soundcheck" do
-  version "1.0.1"
-  sha256 "6ac05b81d6d361da59c2fdbe42ea65c5e6fd58834ade3fae63012ee2ed5798bf"
+  version "1.1"
+  sha256 "24b787dbfb9081b322a50a9fc6c698eafa4ecd10125269bbfba1aaccf35db379"
 
   url "https://github.com/myles-dean/Soundcheck/releases/download/v#{version}/Soundcheck.dmg"
   name "Soundcheck"
@@ -12,6 +12,8 @@ cask "soundcheck" do
     strategy :github_latest
   end
 
+  # It updates itself (Sparkle) from 1.1 on.
+  auto_updates true
   depends_on macos: :tahoe
 
   app "Soundcheck.app"
