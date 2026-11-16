@@ -1,6 +1,6 @@
 cask "soundcheck" do
-  version "1.1"
-  sha256 "24b787dbfb9081b322a50a9fc6c698eafa4ecd10125269bbfba1aaccf35db379"
+  version "1.2"
+  sha256 "70b0ad0e8478a1ddf5574259aee555970e4f09d49cc8d4c098ab8b8a03e4cc57"
 
   url "https://github.com/myles-dean/Soundcheck/releases/download/v#{version}/Soundcheck.dmg"
   name "Soundcheck"
@@ -32,5 +32,8 @@ cask "soundcheck" do
         ],
         sudo:       true,
       },
-      trash:  "~/Library/Preferences/com.mylesdean.Soundcheck.plist"
+      trash:  [
+        "~/Library/Application Support/Soundcheck",
+        "~/Library/Preferences/com.mylesdean.Soundcheck.plist",
+      ]
 end
